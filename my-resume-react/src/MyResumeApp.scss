@@ -1,0 +1,75 @@
+page {
+    background: white;
+    display: block;
+    margin: 30px auto;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+page[pagesize="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+.list-main:nth-child(1) {
+    padding: 0px;
+}
+
+.project-wrapper:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+@page {
+    size: A4;
+    margin: 0mm;
+}
+
+@media print {
+
+    body, page {
+        margin: 0;
+        box-shadow: 0 0;
+        color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .my_noscrollbar_jindu {
+        width: 0 !important;
+    }
+
+    .download-resume, footer {
+        display: none;
+    }
+}
+
+@-webkit-keyframes bounce {
+    to {
+        -webkit-transform: scale(1.25);
+    }
+}
+
+@-moz-keyframes bounce {
+    to {
+        -moz-transform: scale(1.25);
+    }
+}
+
+@keyframes bounce {
+    to {
+        transform: scale(1.25);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    /* For mobile phones: */
+
+    body {
+        margin: 5px;
+        height: 92vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        display: none;
+    }
+}

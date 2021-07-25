@@ -1,0 +1,16 @@
+.contact {
+    color: white;
+    padding: 15px 30px;
+    background-color: #222a33;
+
+    .data-row {
+        display: flex;
+        padding-bottom: 10px;
+
+        .content {
+            display: flex;
+            align-items: center;
+            width: fit-content;
+        }
+    }
+}

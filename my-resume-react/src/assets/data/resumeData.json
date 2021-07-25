@@ -1,0 +1,109 @@
+{
+    "profile": {
+        "fullName": "Abhishek Joshi",
+        "titleDesc": "Full Stack Developer",
+        "summaryDesc": "Creative and passionate full stack developer with 4+ years of experience in end to end development of cloud-apps, web-apps that are performant, reliable, secure and engage users."
+    },
+    "contact": {
+        "email": "abhishek.joshi0795@gmail.com",
+        "phoneNum": "9408730900",
+        "location": "Bangalore",
+        "linkedinUrl": "linkedin.com/in/abhishek-joshi0795",
+        "githubUrl": "github.com/AbhishekJoshi07"
+    },
+    "workExperience": [
+        {
+            "info": "Engineer at Honeywell Homes - Resideo",
+            "timePeriod": "10/2019 - Present"
+        },
+        {
+            "info": "Senior Systems Engineer at Infosys",
+            "timePeriod": "07/2017 - 10/2019"
+        }
+    ],
+    "skills": [
+        "Java",
+        "Spring - Basic",
+        "SpringBoot - Basic",
+        "JavaScript",
+        "React",
+        "Redux - Basic",
+        "HTML",
+        "CSS",
+        "Terraform - Basic",
+        "Docker - Basic",
+        "Kubernetes - Basic"
+    ],
+    "education": [
+        {
+            "info": "B.Tech in Information Technoloy Dharmsinh Desai University, Gujarat",
+            "timePeriod": "2013 - 2017",
+            "achievements": [
+                "Scored 10/10 in Java"
+            ]
+        }
+    ],
+    "achievements": [
+        {
+            "info": "Magic squad award",
+            "timePeriod": "09/2019"
+        },
+        {
+            "info": "Insta award",
+            "timePeriod": "06/2019"
+        },
+        {
+            "info": "Insta award",
+            "timePeriod": "01/2019"
+        },
+        {
+            "info": "Most valuable player award",
+            "timePeriod": "08/2018"
+        },
+        {
+            "info": "Insta award",
+            "timePeriod": "05/2018"
+        }
+    ],
+    "tools": [
+        "Spring tool suite",
+        "Jira",
+        "Visual studio code",
+        "Github/Gitbash"
+    ],
+    "currentProjects": [
+        {
+            "heading": "Athena ETL",
+            "desc": "Targated to pull data from source eventhubs and perform basic transformation of raw data and organise the same under data lake or elk.",
+            "timePeriod": "07/2020 - Present",
+            "tasks": [
+                "Developed UI using reactjs with AD auth and APIs using python flask.",
+                "Created docker image of pipeline executor using python and deployed in AKS."
+            ],
+            "technologies": [ "Python", "ReactJS", "Flask", "JS", "Docker", "AKS", "Terraform script", "Mysql" ]
+        },
+        {
+            "heading": "Rule Engine",
+            "desc": "Event driven cloud application which provides facility to perform live events (triggered from various devices) based on rules created by users.",
+            "timePeriod": "10/2019 - 07/2020",
+            "tasks": [
+                "Implemented workflow MS to perform CRUD on rules and execute rules.",
+                "Implemented Event MS to pull events from eventhub and send it to executor.",
+                "Implemented trigger/action MS to subscribe event hubs and perform actions triggered by devices.",
+                "Automated the cloud resources deployment using terraform cloud."
+            ],
+            "technologies": [ "C#", "DotNet core 2.2", "Terraform script", "Azure Event hub", "Mongo DB"]
+        },
+        {
+            "heading": "US based energy provider company (sce.com)",
+            "desc": "A digital utility site where user can check his power bills, payment history, usage details and pay electricity bills etc.",
+            "timePeriod": "07/2017 - 10/2019",
+            "tasks": [
+                "Developed billing & payment, my account and budget assistant modules using ReactJS and SpringBoot MS.",
+                "Implemented async API call in MS and Utilized Java 8 features for code optimization and performance enhancement.",
+                "Integrated Webpack as a build tool, Babel to transpile the new generation JavaScript & Junit for unit testing."
+            ],
+            "technologies": [ "Java", "Springboot", "ReactJS", "JS", "SCSS", "Drupal", "Docker", "AKS"]
+        }
+    ]
+}

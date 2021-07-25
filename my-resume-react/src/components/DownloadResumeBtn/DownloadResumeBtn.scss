@@ -1,0 +1,57 @@
+.download-resume {
+    background: #425061;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    position: fixed;
+    top: 5%;
+    left: 83%;
+    display: flex;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    -webkit-animation: bounce 1s infinite alternate;
+    -moz-animation: bounce 1s infinite alternate;
+    animation: bounce 1s infinite alternate;
+
+    span {
+        max-width: 0;
+        -webkit-transition: max-width 0.6s;
+        transition: max-width 0.6s;
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    &:hover {
+        color: #00c8aa;
+        -webkit-animation: 0;
+        animation: 0;
+        -moz-animation: 0;
+    }
+
+    &:hover span {
+        max-width: 10rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    /* For mobile phones: */
+    
+    .download-btn-container {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 100px;
+        
+        .download-resume {
+            left: unset;
+            top: unset;
+            position: unset;
+            width: fit-content;            
+    
+            span {
+                max-width: 10rem;
+                padding: 2px;
+            }
+        }
+    }
+}
