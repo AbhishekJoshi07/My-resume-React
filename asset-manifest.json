@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-resume-React/static/css/main.f17783d2.chunk.css",
+    "main.css": "/My-resume-React/static/css/main.d2d5b98f.chunk.css",
     "main.js": "/My-resume-React/static/js/main.2f25407a.chunk.js",
     "main.js.map": "/My-resume-React/static/js/main.2f25407a.chunk.js.map",
     "runtime-main.js": "/My-resume-React/static/js/runtime-main.861c08e6.js",
@@ -10,7 +10,7 @@
     "static/js/3.441eddb2.chunk.js": "/My-resume-React/static/js/3.441eddb2.chunk.js",
     "static/js/3.441eddb2.chunk.js.map": "/My-resume-React/static/js/3.441eddb2.chunk.js.map",
     "index.html": "/My-resume-React/index.html",
-    "static/css/main.f17783d2.chunk.css.map": "/My-resume-React/static/css/main.f17783d2.chunk.css.map",
+    "static/css/main.d2d5b98f.chunk.css.map": "/My-resume-React/static/css/main.d2d5b98f.chunk.css.map",
     "static/js/2.642eddf8.chunk.js.LICENSE.txt": "/My-resume-React/static/js/2.642eddf8.chunk.js.LICENSE.txt",
     "static/media/Abhishek's resume.05187721.pdf": "/My-resume-React/static/media/Abhishek's resume.05187721.pdf",
     "static/media/profile.f19dc9dc.jpg": "/My-resume-React/static/media/profile.f19dc9dc.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.861c08e6.js",
     "static/js/2.642eddf8.chunk.js",
-    "static/css/main.f17783d2.chunk.css",
+    "static/css/main.d2d5b98f.chunk.css",
     "static/js/main.2f25407a.chunk.js"
   ]
 }
