@@ -1,8 +1,8 @@
-import EmailIcon from "@material-ui/icons/Email";
-import PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
-import LocationOnIcon from '@material-ui/icons/LocationOn';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import EmailIcon from "@mui/icons-material/Email";
+import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import "./Contact.scss";
 
 function Contact(props) {

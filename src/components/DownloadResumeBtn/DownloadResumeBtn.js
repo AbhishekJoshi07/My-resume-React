@@ -1,7 +1,7 @@
 // resume data
 import resumePdf from "../../assets/data/Abhishek's resume.pdf";
 // icon
-import SaveAltIcon from '@material-ui/icons/SaveAlt';
+import SaveAltIcon from '@mui/icons-material/SaveAlt';
 // styles
 import './DownloadResumeBtn.scss';
 
