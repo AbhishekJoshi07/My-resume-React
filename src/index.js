@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import MyResumeApp from './MyResumeApp';
+import MyResumeApp from './components/app/MyResumeApp';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

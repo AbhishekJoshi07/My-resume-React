@@ -1,15 +1,15 @@
 // core components
-import Footer from "./components/Footer/Footer";
-import Profile from "./components/Profile/Profile";
-import Contact from "./components/Contact/Contact";
-import Projects from "./components/Projects/Projects";
-import ListComponent from "./components/ListComponent/ListComponent";
-import ChipsComponent from "./components/ChipsComponent/ChipsComponent";
-import DownloadResumeBtn from "./components/DownloadResumeBtn/DownloadResumeBtn";
+import Footer from "../Footer/Footer";
+import Profile from "../Profile/Profile";
+import Contact from "../Contact/Contact";
+import Projects from "../Projects/Projects";
+import ListComponent from "../ListComponent/ListComponent";
+import ChipsComponent from "../ChipsComponent/ChipsComponent";
+import DownloadResumeBtn from "../DownloadResumeBtn/DownloadResumeBtn";
 // resume data
-import data from './assets/data/resumeData.json';
+import data from '../../assets/data/resumeData.json';
 // util
-import { SKILLS, TOOLS, PROJECT, EDUCATION, WORKEXPERIENCE, ACHIEVEMENTS } from "./utils/utils";
+import { SKILLS, TOOLS, PROJECT, EDUCATION, WORKEXPERIENCE, ACHIEVEMENTS } from "../../utils/utils";
 // styles
 import './MyResumeApp.scss';
 
